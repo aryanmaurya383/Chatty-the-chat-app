@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "zustand": "^5.0.2"
+  },
+  "name": "chat-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
